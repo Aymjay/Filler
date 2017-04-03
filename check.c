@@ -46,7 +46,7 @@ int			piece_initialize(t_filler **filler, char *line, int i, int j)
 	char *dim;
 	char *str;
 
-	str = strdup("Piece ");
+	str = ft_strdup("Piece ");
 	dim = malloc(ft_strlen(line) * sizeof(char));
 	while (str[i] == line[i] && line[i])
 		++i;

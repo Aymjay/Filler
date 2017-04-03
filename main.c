@@ -64,7 +64,7 @@ char		**take_dim(char *line)
 		++i;
 	}
 	str[j] = '\0';
-	tab = (char **)malloc(atoi(str) * sizeof(char *));
+	tab = (char **)malloc(ft_atoi(str) * sizeof(char *));
 	while (ft_isdigit(line[i]) != 1)
 		++i;
 	while (ft_isdigit(line[i]) == 1)

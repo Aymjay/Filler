@@ -40,7 +40,7 @@ void	count_it(char **tab, t_filler *filler, int me, int other)
 	{
 		ft_putstr_fd("\033[32mWOOT WOOT J'AI GAGNE\033[00m\n", 2);
 		ft_putstr_fd("\033[33mJ'ai joué ", 2);
-		ft_putnbr_fd(filler->turn, 2);
+		ft_putnbr_fd(filler->turn - 1, 2);
 		ft_putstr_fd(" fois.\n", 2);
 		ft_putstr_fd("J'ai ", 2);
 		ft_putnbr_fd(me - other, 2);
